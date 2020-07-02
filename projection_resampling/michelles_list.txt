@@ -1,0 +1,173 @@
+# from significant_genes_resampling_MB022020.txt
+Rv0079	hypothetical protein	0
+Rv0096	PPE family protein PPE1	0
+Rv0097	oxidoreductase	0
+Rv0098	fatty-acyl-CoA thioesterase type III FcoT	0
+Rv0099	fatty-acid-CoA ligase FadD10	0
+Rv0101	peptide synthetase Nrp	0
+Rv0111	transmembrane acyltransferase	0
+Rv0177	MCE-associated membrane protein	0
+Rv0180c	YhgE/Pip domain-containing protein	0
+Rv0216	double hotdog hydratase	0
+Rv0244c	acyl-CoA dehydrogenase FadE5	0
+Rv0248c	succinate dehydrogenase [iron-sulfur subunit] SdhA_1	0
+Rv0249c	succinate dehydrogenase [membrane anchor subunit]	0
+Rv0270	fatty-acid-CoA ligase FadD2	0
+Rv0296c	sulfatase	0
+Rv0353	heat shock protein transcriptional repressor HspR	0
+Rv0381c	hypothetical protein	0
+Rv0407	F420-dependent glucose-6-phosphate dehydrogenase Fgd1	0
+Rv0436c	CDP-diacylglycerol-serine O-phosphatidyltransferase PssA	0
+Rv0450c	transmembrane transporter MmpL4	0
+Rv0465c	transcriptional regulator	0
+Rv0485	transcriptional regulator	0
+Rv0503c	cyclopropane mycolic acid synthase 2 CmaA2	0
+Rv0505c	phosphoserine phosphatase SerB1	0
+Rv0554	peroxidase BpoC	0
+Rv0643c	methoxy mycolic acid synthase 3 MmaA3	0
+Rv0757	OmpR family two-component system response regulator	0
+Rv0758	OmpR family two-component system sensor histidine kinase	0
+Rv0767c	hypothetical protein	0
+Rv0805	cyclic nucleotide phosphodiesterase	0
+Rv0806c	UDP-glucose-4-epimerase CpsY	0
+Rv0818	transcriptional regulator	0
+Rv0820	phosphate-transport ABC transporter ATP-binding protein PhoT	0
+Rv0859	acyl-CoA thiolase FadA	0
+Rv0877	hypothetical protein	0
+Rv0989c	polyprenyl-diphosphate synthase GrcC2	0
+Rv0998	hypothetical protein	0
+Rv1006	hypothetical protein	0
+Rv1099c	"fructose 1,6-bisphosphatase GlpX"	0
+Rv1127c	"pyruvate, phosphate dikinase PpdK"	0
+Rv1151c	transcriptional regulator	0
+Rv1157c	alanine and proline rich protein	0
+Rv1174c	t-cell antigen	0
+Rv1183	transmembrane transporter MmpL10	0
+Rv1184c	exported protein	0
+Rv1193	fatty-acid-CoA ligase FadD36	0
+Rv1205	hypothetical protein	0
+Rv1206	fatty-acid-CoA ligase FadD6	0
+Rv1212c	glycosyltransferase GlgA	0
+Rv1213	glucose-1-phosphate adenylyltransferase GlgC	0
+Rv1235	sugar-binding lipoprotein LpqY	0
+Rv1244	lipoprotein LpqZ	0
+Rv1272c	ABC transporter membrane protein	0
+Rv1273c	ABC transporter membrane protein	0
+Rv1328	glycogen phosphorylase GlgP	0
+Rv1345	fatty acyl-AMP ligase MbtM	0
+Rv1349	iron-regulated transporter IrtB	0
+Rv1356c	hypothetical protein	0
+Rv1364c	anti-anti-sigma factor	0
+Rv1445c	6-phosphogluconolactonase DevB (6PGL)	0
+Rv1492	methylmalonyl-CoA mutase small subunit MutA	0
+Rv1538c	L-asparaginase AnsA	0
+Rv1543	fatty-acyl-CoA reductase	0
+Rv1589	biotin synthetase BioB	0
+Rv1592c	triacylglycerol lipase	0
+Rv1626	two-component system transcriptional regulator	0
+Rv1635c	polyprenol phosphomannose-dependent ManLAM-capping mannosyltransferase	0
+Rv1701	tyrosine recombinase xerD	0
+Rv1747	transmembrane ABC transporter ATP-binding protein	0
+Rv1770	hypothetical protein	0
+Rv1785c	cytochrome P450 143 Cyp143	0
+Rv1798	ESX-5 secretion system protein EccA5	0
+Rv1823	hypothetical protein	0
+Rv1829	hypothetical protein	0
+Rv1901	cinA-like protein CinA	0
+Rv1925	acyl-CoA ligase FadD31	0
+Rv2004c	hypothetical protein	0
+Rv2043c	pyrazinamidase/nicotinamidase PncA	0
+Rv2048c	polyketide synthase Pks12	0
+Rv2061c	hypothetical protein	0
+Rv2069	RNA polymerase sigma factor SigC	0
+Rv2098c	PE-PGRS family protein	0
+Rv2140c	hypothetical protein	0
+Rv2183c	hypothetical protein	0
+Rv2190c	hypothetical protein	0
+Rv2210c	branched-chain-amino-acid aminotransferase IlvE	0
+Rv2214c	short-chain dehydrogenase EphD	0
+Rv2224c	carboxylesterase CaeA	0
+Rv2241	pyruvate dehydrogenase E1 component AceE	0
+Rv2344c	deoxyguanosine triphosphate triphosphohydrolase Dgt	0
+Rv2378c	lysine-N-oxygenase MbtG	0
+Rv2379c	peptide synthetase MbtF	0
+Rv2380c	peptide synthetase MbtE	0
+Rv2381c	mycobactin polyketide synthetase MbtD	0
+Rv2382c	mycobactin polyketide synthetase MbtC	0
+Rv2383c	phenyloxazoline synthase MbtB	0
+Rv2384	salicyl-AMP ligase MbtA	0
+Rv2386c	isochorismate synthase MbtI	0
+Rv2462c	trigger factor protein Tig	0
+Rv2476c	NAD-dependent glutamate dehydrogenase Gdh	0
+Rv2563	glutamine-transport ABC transporter transmembrane protein	0
+Rv2564	glutamine-transport ABC transporter ATP-binding protein GlnQ	0
+Rv2567	alanine and leucine rich protein	0
+Rv2571c	transmembrane alanine and valine and leucine rich protein	0
+Rv2605c	acyl-CoA thioesterase II TesB2	0
+Rv2614A	hypothetical protein	0
+Rv2684	arsenic-transport integral membrane protein ArsA	0
+Rv2689c	methyltransferase	0
+Rv2894c	tyrosine recombinase xerC	0
+Rv2930	fatty-acid-AMP ligase FadD26	0
+Rv2931	phenolpthiocerol synthesis type-I polyketide synthase PpsA	0
+Rv2932	phenolpthiocerol synthesis type-I polyketide synthase PpsB	0
+Rv2933	phenolpthiocerol synthesis type-I polyketide synthase PpsC	0
+Rv2934	phenolpthiocerol synthesis type-I polyketide synthase PpsD	0
+Rv2935	phenolpthiocerol synthesis type-I polyketide synthase PpsE	0
+Rv2936	doxorubicin resistance ATP-binding protein DrrA	0
+Rv2940c	mycocerosic acid synthase membrane-associated Mas	0
+Rv2942	RND superfamily inner membrane transporter MmpL7	0
+Rv2967c	pyruvate carboxylase Pca	0
+Rv2985	hydrolase MutT1	0
+Rv3005c	hypothetical protein	0
+Rv3036c	secreted protein	0
+Rv3131	hypothetical protein	0
+Rv3135	PPE family protein PPE50	0
+Rv3136	PPE family protein PPE51	0
+Rv3139	acyl-CoA dehydrogenase FadE24	0
+Rv3193c	transmembrane protein	0
+Rv3194c	PDZ domain-containing protease	0
+Rv3211	ATP-dependent RNA helicase RhlE	0
+Rv3220c	two-component system sensor histidine kinase	0
+Rv3229c	stearoyl-CoA 9-desaturase	0
+Rv3232c	polyphosphate kinase Ppk2	0
+Rv3262	F420 biosynthesis protein FbiB	0
+Rv3267	hypothetical protein	0
+Rv3270	metal cation-transporter P-type ATPase CtpC	0
+Rv3277	transmembrane protein	0
+Rv3283	thiosulfate sulfurtransferase SseA	0
+Rv3331	sugar-transport ABC transporter integral membrane protein SugI	0
+Rv3419c	O-sialoglycoprotein endopeptidase Gcp	0
+Rv3484	hypothetical protein	0
+Rv3494c	MCE-family protein Mce4F	0
+Rv3499c	MCE-family protein Mce4A	0
+Rv3535c	acetaldehyde dehydrogenase	0
+Rv3539	PPE family protein PPE63	0
+Rv3542c	hypothetical protein	0
+Rv3543c	acyl-CoA dehydrogenase FadE29	0
+Rv3551	coA-transferase	0
+Rv3559c	3-oxoacyl-[acyl-carrier protein] reductase	0
+Rv3560c	acyl-CoA dehydrogenase FadE30	0
+Rv3564	acyl-CoA dehydrogenase FadE33	0
+Rv3575c	transcriptional regulator	0
+Rv3578	arsenical pump integral membrane protein ArsB2	0
+Rv3586	DNA integrity scanning protein disA	0
+Rv3682	bifunctional membrane-associated penicillin-binding protein 1A/1B PonA2	0
+Rv3693	membrane protein	0
+Rv3696c	glycerol kinase GlpK	0
+Rv3717	N-acetylmuramoyl-L-alanine amidase	0
+Rv3779	decaprenol GalNH2-dependent GalNH2 transferase	0
+Rv3818	N-acetylmuramic acid hydroxylase	0
+Rv3820c	acyltransferase PapA2	0
+Rv3822	membrane-associated acyltransferase	0
+Rv3823c	membrane transporter MmpL8	0
+Rv3824c	acyltransferase PapA1	0
+Rv3825c	polyketide synthase Pks2	0
+Rv3842c	glycerophosphoryl diester phosphodiesterase GlpQ1	0
+Rv3848	transmembrane protein	0
+Rv3849	ESX-1 secretion-associated regulator EspR	0
+Rv3855	transcriptional repressor EthR	0
+Rv3867	ESX-1 secretion-associated protein EspH	0
+Rv3868	ESX-1 secretion system protein EccA1	0
+Rv3877	ESX-1 secretion system protein EccD1	0
+Rv3883c	mycosin MycP1	0
