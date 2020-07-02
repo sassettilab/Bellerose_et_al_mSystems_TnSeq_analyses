@@ -37,7 +37,7 @@ Usage and Example
 
 Using the example files provided, the command would be:
 
-> python projection_resampling_Abx.py multiTnSeq_Abx_3b_counts_TTR.txt Abx_3b_samples_metadata_all.txt H37Rv3.prot_table multiTnSeq_Abx_3b_varimax_loadings.txt michelles_list.txt 
+> python projection_resampling_Abx.py multiTnSeq_Abx_3b_counts_TTR.txt Abx_3b_samples_metadata_all.txt H37Rv3.prot_table multiTnSeq_Abx_3b_varimax_loadings.txt michelles_list.txt > projection_resampling_out.txt
 
 The output file can be opened as a spreadsheet.  It shows the original
 mean counts in each of the conditions, the mean counts projected onto
