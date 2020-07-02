@@ -23,13 +23,13 @@ emb_wk1_1	emb_wk1_1.wig	EMB_wk1	EMB	1	1
 emb_wk1_2	emb_wk1_2.wig	EMB_wk1	EMB	1	1
 pza_wk1_1	pza_wk1_1.wig	PZA_wk1	PZA	1	1
 pza_wk1_2	pza_wk1_2.wig	PZA_wk1	PZA	1	1
-#PZA_wk1_1	PZA_wk1_1.wig	PZA_wk1	PZA	1	3
-#PZA_wk1_2	PZA_wk1_2.wig	PZA_wk1	PZA	1	3
+PZA_wk1_1	PZA_wk1_1.wig	PZA_wk1	PZA	1	3
+PZA_wk1_2	PZA_wk1_2.wig	PZA_wk1	PZA	1	3
 mix_wk1_1	mix_wk1_1.wig	HRZE_wk1	HRZE	1	1
 mix_wk1_2	mix_wk1_2.wig	HRZE_wk1	HRZE	1	1
 MIX_wk1_1	MIX_wk1_1.wig	HRZE_wk1	HRZE	1	3
 MIX_wk1_2	MIX_wk1_2.wig	HRZE_wk1	HRZE	1	3
-#MIX_wk1_3	MIX_wk1_3.wig	HRZE_wk1	HRZE	1	3
+MIX_wk1_3	MIX_wk1_3.wig	HRZE_wk1	HRZE	1	3
 untreated_d32_1	untreated_d32_1.wig	untreated_wk2	untreated	2	2
 untreated_d32_2	untreated_d32_2.wig	untreated_wk2	untreated	2	2
 untreated_d32_3	untreated_d32_3.wig	untreated_wk2	untreated	2	2
@@ -46,7 +46,7 @@ RIF_wk2_3	RIF_wk2_3.wig	RIF_wk2	RIF	2	3
 emb_wk2_1	emb_wk2_1.wig	EMB_wk2	EMB	2	1
 emb_wk2_2	emb_wk2_2.wig	EMB_wk2	EMB	2	1
 d49_1	d49_1.wig	untreated_wk5	untreated	5	3
-#d49_2	d49_2.wig	untreated_wk5	untreated	5	3
+d49_2	d49_2.wig	untreated_wk5	untreated	5	3
 d49_3	d49_3.wig	untreated_wk5	untreated	5	3
 d49_4	d49_4.wig	untreated_wk5	untreated	5	3
 inh_wk5_1	inh_wk5_1.wig	INH_wk5	INH	5	1
