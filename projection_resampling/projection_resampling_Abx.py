@@ -1,7 +1,6 @@
 # copyright 2020, Thomas R. Ioerger
 
 import sys,math,numpy
-import pytransit.stat_tools
 import statsmodels.stats.multitest
 
 #########################################################
@@ -267,10 +266,11 @@ for line in open(sys.argv[5]): # temp_anova.txt
 results = [] # list of [rv,dim,log2FC,pval]
 gene_data = []
 for (start,end,rv,gene,strand) in genes:
-  #if rv not in anova and VERBOSE: 
-  sys.stderr.write("warning: %s not found in %s\n" % (rv,sys.argv[5]))
-  if rv not in anova: continue
+  if rv not in anova: 
+    if VERBOSE: sys.stderr.write("warning: %s not found in %s\n" % (rv,sys.argv[5]))
+    continue
   if anova[rv]>=0.05: continue
+  sys.stderr.write("%s\n" % rv)
   localCounts = {} # for each condition, observations over all TA sites and all replicates pooled
   localCountsPerSite = {} # list of counts over replicates, indexed by (cond,coord)
   for cond in conditions: localCounts[cond] = []
@@ -308,29 +308,6 @@ for (start,end,rv,gene,strand) in genes:
   equivSampSize = int(totObs/float(ndims))
   if VERBOSE: print "nTA=%s, totObs=%s, totReps=%s, ncond=%s, meanReps=%0.1f, ndims=%s, virtReps=%0.1f, equivSampSize=%s" % (nTA,totObs,totReps,ncond,totReps/float(ncond),ndims,equivSampSize/float(nTA),equivSampSize)
 
-#  # original way, pulling random obs
-#  projectedcounts = []
-#  for i in range(ndims):
-#    projected = []
-#    probs = probdist(loadings[i])
-#    for j in range(equivSampSize): 
-#      cond = numpy.random.choice(conditions,p=probs)
-#      projected.append(numpy.random.choice(localCounts[cond]))
-#    if VERBOSE: print "V%d: %5.1f" % ((i+1),numpy.mean(projected)),projected
-#    projectedcounts.append(numpy.array(projected))
-
-#  # linear comb of all conds; each dim has fractions of all obs
-#  projectedcounts = []
-#  for i in range(ndims):
-#    probs = probdist(loadings[i]) # note: loadings has been transposed from file
-#    proj = []
-#    for j,cond in enumerate(conditions):
-#      for x in localCounts[cond]: proj.append(probs[j]*x) 
-#    # should I scale-up, since many fractions get rounded to 0?
-#    proj = numpy.array([proj],dtype=int) 
-#    proj = proj.T[:,-1] # make it have shape like (200,)
-#    projectedcounts.append(proj)
-
   # take weighted average of counts at each TA site for each PC or Varimax dim
   projectedcounts = []
   SCALE = len(conditions)# /float(ndims)
@@ -359,12 +336,11 @@ for (start,end,rv,gene,strand) in genes:
     # args based on pytransit/src/resampling.py: data1, data2, S=self.samples, testFunc=stat_tools.F_mean_diff_dict, permFunc=stat_tools.F_shuffle_dict_libraries, adaptive=self.adaptive, lib_str1=self.ctrl_lib_str, lib_str2=self.exp_lib_str)
     # test_obj is test statistic (diff of means); testlist is samples from null distn
     # log2FC represents log2(mean2/mean1) with pseudo-counts of 1
-    #(test_obs, mean1, mean2, log2FC, pval_ltail, pval_utail,  pval_2tail, testlist) =  pytransit.stat_tools.resampling(data1, data2, S=10000, adaptive=True) 
 
-    (test_obs, mean1, mean2, log2FC, pval_ltail, pval_utail,  pval_2tail, testlist) =  resampling_transit(data1, data2, S=10000, adaptive=True) # ,n1=n1,n2=n2)
+    (test_obs, mean1, mean2, log2FC, pval_ltail, pval_utail,  pval_2tail, testlist) =  resampling_transit(data1, data2, S=10000, adaptive=True) 
     dim = "V%s" % (i+1)
     log2FC = math.log((mean2+1)/(median+1),2) # redefine based on median of means, instead of Vdim vs others from resampling()
-    results.append([rv,dim,mean2,numpy.round(log2FC,1),pval_2tail]) # multiply mean2 by ndims or ncond?
+    results.append([rv,dim,mean2,numpy.round(log2FC,1),pval_2tail]) 
 
     vals2 = ["#resamp","V%s" % (i+1)]+[numpy.round(x,3) for x in [mean2,mean1,log2FC]]+[pval_2tail]
     if VERBOSE: print '\t'.join([str(x) for x in vals2])
