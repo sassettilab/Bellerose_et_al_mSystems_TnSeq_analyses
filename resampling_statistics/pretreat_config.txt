@@ -1,0 +1,4 @@
+input_rep1_raw_templates.txt	0
+input_rep2_raw_templates.txt	0
+pretreatment_rep1_raw_templates.txt	1
+pretreatment_rep2_raw_templates.txt	1
